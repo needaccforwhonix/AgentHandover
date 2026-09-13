@@ -1,0 +1,5328 @@
+[
+  {
+    "file": "config.example.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "Cargo.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "pyproject.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "package.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "justfile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "rust-toolchain.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "Cargo.lock",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/pyproject.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_activity_classifier.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.activity_classifier",
+      "agenthandover_worker.llm_reasoning",
+      "patch",
+      "annotations",
+      "LLMReasoner",
+      "agenthandover_worker.knowledge_base",
+      "unittest.mock",
+      "PolicyAction",
+      "__future__",
+      "agenthandover_worker.user_policy",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_setup_vlm.py",
+    "dependencies": [
+      "sys",
+      "agenthandover_worker.setup_vlm",
+      "__future__",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_translator.py",
+    "dependencies": [
+      "uuid",
+      "annotations",
+      "json",
+      "SemanticTranslator",
+      "__future__",
+      "agenthandover_worker.translator"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_confidence.py",
+    "dependencies": [
+      "annotations",
+      "ConfidenceScore",
+      "__future__",
+      "agenthandover_worker.confidence",
+      "TranslationResult",
+      "agenthandover_worker.translator"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_activity_search.py",
+    "dependencies": [
+      "pytest",
+      "sqlite3",
+      "annotations",
+      "conftest",
+      "json",
+      "agenthandover_worker.activity_search",
+      "pathlib",
+      "__future__",
+      "Path",
+      "insert_event",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_setup_vlm_remote.py",
+    "dependencies": [
+      "pytest",
+      "_write_remote_config",
+      "patch",
+      "annotations",
+      "unittest.mock",
+      "pathlib",
+      "__future__",
+      "tempfile",
+      "os",
+      "Path",
+      "agenthandover_worker.setup_vlm"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_sop_schema.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "json",
+      "__future__",
+      "agenthandover_worker.sop_schema"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_episode_builder_enhanced.py",
+    "dependencies": [
+      "uuid",
+      "hashlib",
+      "annotations",
+      "Episode",
+      "json",
+      "agenthandover_worker.episode_builder",
+      "__future__",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/conftest.py",
+    "dependencies": [
+      "pytest",
+      "uuid",
+      "sqlite3",
+      "annotations",
+      "pathlib",
+      "__future__",
+      "tempfile",
+      "Path",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_openclaw_writer.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.openclaw_writer",
+      "annotations",
+      "json",
+      "pathlib",
+      "__future__",
+      "OpenClawWriter",
+      "Path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_semantic_step.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "Evidence",
+      "__future__",
+      "datetime",
+      "agenthandover_worker.models.semantic_step"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_claude_skill_writer.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "ClaudeSkillWriter",
+      "json",
+      "pathlib",
+      "__future__",
+      "tempfile",
+      "Path",
+      "agenthandover_worker.claude_skill_writer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_evidence_tracker.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_schema",
+      "sop_to_procedure",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "pathlib",
+      "agenthandover_worker.evidence_tracker",
+      "__future__",
+      "Path",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_knowledge_base.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_schema",
+      "agenthandover_worker.sop_schema",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "pathlib",
+      "sop_to_json",
+      "__future__",
+      "Path",
+      "threading",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_agent_connect.py",
+    "dependencies": [
+      "pytest",
+      "patch",
+      "annotations",
+      "agenthandover_worker.agent_connect",
+      "json",
+      "unittest.mock",
+      "pathlib",
+      "__future__",
+      "Path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_query_api.py",
+    "dependencies": [
+      "pytest",
+      "Any",
+      "annotations",
+      "QueryAPIServer",
+      "agenthandover_worker.query_api",
+      "urllib.error",
+      "urllib.request",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "pathlib",
+      "__future__",
+      "time",
+      "socket",
+      "Path",
+      "typing",
+      "dataclasses",
+      "KnowledgeBase",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "worker/tests/test_variant_detector.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "agenthandover_worker.variant_detector",
+      "math",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_branch_extractor.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_schema",
+      "sop_to_procedure",
+      "annotations",
+      "BranchExtractor",
+      "agenthandover_worker.knowledge_base",
+      "pathlib",
+      "__future__",
+      "Path",
+      "KnowledgeBase",
+      "agenthandover_worker.branch_extractor"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_backends_anthropic.py",
+    "dependencies": [
+      "pytest",
+      "VLMConfig",
+      "agenthandover_worker.backends.anthropic",
+      "agenthandover_worker.vlm_worker",
+      "annotations",
+      "AnthropicBackend",
+      "base64",
+      "json",
+      "unittest.mock",
+      "__future__",
+      "_detect_media_type",
+      "os",
+      "check",
+      "MagicMock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_exporter.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "SOPFormatter",
+      "AtomicWriter",
+      "agenthandover_worker.sop_format",
+      "pathlib",
+      "SOPVersioner",
+      "__future__",
+      "agenthandover_worker.exporter",
+      "os",
+      "Path",
+      "agenthandover_worker.sop_versioner"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_sop_enhancer.py",
+    "dependencies": [
+      "pytest",
+      "hashlib",
+      "agenthandover_worker.backends.ollama",
+      "annotations",
+      "OllamaBackend",
+      "unittest.mock",
+      "__future__",
+      "agenthandover_worker.sop_enhancer",
+      "MagicMock",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_deep_scan.py",
+    "dependencies": [
+      "agenthandover_worker.deep_scan",
+      "__future__",
+      "re",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_v2_confidence.py",
+    "dependencies": [
+      "pytest",
+      "__future__",
+      "agenthandover_worker.confidence",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_focus_processor.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "FocusProcessor",
+      "json",
+      "tempfile",
+      "_process_focus_sessions_v2",
+      "DiffConfig",
+      "agenthandover_worker.focus_processor",
+      "__future__",
+      "Path",
+      "MagicMock",
+      "sqlite3",
+      "agenthandover_worker.main",
+      "agenthandover_worker.frame_differ",
+      "agenthandover_worker.sop_generator",
+      "agenthandover_worker.scene_annotator",
+      "agenthandover_worker.db",
+      "unittest.mock",
+      "pathlib",
+      "WorkerDB"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_cleanup.py",
+    "dependencies": [
+      "purge_old_clipboard_previews",
+      "annotations",
+      "agenthandover_worker.cleanup",
+      "json",
+      "__future__",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_account_detector.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "AccountContext",
+      "__future__",
+      "agenthandover_worker.account_detector"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_backends_google.py",
+    "dependencies": [
+      "pytest",
+      "VLMConfig",
+      "agenthandover_worker.vlm_worker",
+      "annotations",
+      "base64",
+      "json",
+      "_detect_mime_type",
+      "unittest.mock",
+      "GoogleGenAIBackend",
+      "agenthandover_worker.backends.google_genai",
+      "__future__",
+      "os",
+      "MagicMock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_behavioral_synthesizer.py",
+    "dependencies": [
+      "pytest",
+      "patch",
+      "annotations",
+      "agenthandover_worker.behavioral_synthesizer",
+      "json",
+      "unittest.mock",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_style_analyzer.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "agenthandover_worker.style_analyzer",
+      "unittest.mock",
+      "__future__",
+      "MagicMock",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_kb_sync.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "zipfile",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "pathlib",
+      "agenthandover_worker.kb_sync",
+      "__future__",
+      "Path",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_vlm_variable_classification.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.sop_inducer",
+      "agenthandover_worker.vlm_worker",
+      "annotations",
+      "__future__",
+      "SOPInducer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_vector_kb.py",
+    "dependencies": [
+      "pytest",
+      "sqlite3",
+      "agenthandover_worker.vector_kb",
+      "annotations",
+      "json",
+      "unittest.mock",
+      "pathlib",
+      "math",
+      "__future__",
+      "tempfile",
+      "Path",
+      "struct",
+      "MagicMock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_evidence_normalizer.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_schema",
+      "sop_to_procedure",
+      "annotations",
+      "agenthandover_worker.evidence_normalizer",
+      "agenthandover_worker.knowledge_base",
+      "VariantDetector",
+      "pathlib",
+      "agenthandover_worker.variant_detector",
+      "__future__",
+      "Path",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_execution_monitor.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "agenthandover_worker.execution_monitor",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "pathlib",
+      "__future__",
+      "Path",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_v2_pipeline_integration.py",
+    "dependencies": [
+      "pytest",
+      "uuid",
+      "annotations",
+      "json",
+      "main",
+      "DiffResult",
+      "agenthandover_worker.negative_demo",
+      "EpisodeBuilder",
+      "NegativeDemoPruner",
+      "DiffConfig",
+      "DAEMON_SCHEMA",
+      "IndexGenerator",
+      "agenthandover_worker.vlm_queue",
+      "agenthandover_worker.episode_builder",
+      "__future__",
+      "Path",
+      "MagicMock",
+      "OpenClawWriter",
+      "agenthandover_worker.translator",
+      "sqlite3",
+      "ClipboardLinker",
+      "agenthandover_worker.main",
+      "agenthandover_worker.clipboard_linker",
+      "agenthandover_worker.frame_differ",
+      "run_pipeline",
+      "SemanticTranslator",
+      "agenthandover_worker.exporter",
+      "agenthandover_worker.scene_annotator",
+      "agenthandover_worker.openclaw_writer",
+      "agenthandover_worker.db",
+      "conftest",
+      "ConfidenceScorer",
+      "unittest.mock",
+      "pathlib",
+      "WorkerDB",
+      "VLMFallbackQueue",
+      "agenthandover_worker.confidence",
+      "agenthandover_worker",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_lifecycle_manager.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_schema",
+      "sop_to_procedure",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "__future__",
+      "KnowledgeBase",
+      "agenthandover_worker.lifecycle_manager"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_sop_generator.py",
+    "dependencies": [
+      "pytest",
+      "patch",
+      "annotations",
+      "re",
+      "agenthandover_worker.sop_generator",
+      "_extract_selector_for_step",
+      "json",
+      "unittest.mock",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_main_pipeline.py",
+    "dependencies": [
+      "pytest",
+      "uuid",
+      "annotations",
+      "json",
+      "main",
+      "_process_vlm_jobs",
+      "agenthandover_worker.negative_demo",
+      "EpisodeBuilder",
+      "NegativeDemoPruner",
+      "IndexGenerator",
+      "agenthandover_worker.vlm_queue",
+      "agenthandover_worker.episode_builder",
+      "__future__",
+      "OpenClawWriter",
+      "Path",
+      "MagicMock",
+      "agenthandover_worker.translator",
+      "ClipboardLinker",
+      "agenthandover_worker.main",
+      "agenthandover_worker.clipboard_linker",
+      "run_pipeline",
+      "SemanticTranslator",
+      "agenthandover_worker.exporter",
+      "agenthandover_worker.openclaw_writer",
+      "ConfidenceScorer",
+      "unittest.mock",
+      "pathlib",
+      "VLMFallbackQueue",
+      "agenthandover_worker.confidence",
+      "agenthandover_worker",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_sop_linter.py",
+    "dependencies": [
+      "pytest",
+      "LintIssue",
+      "annotations",
+      "agenthandover_worker.sop_linter",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_handoff_conformance.py",
+    "dependencies": [
+      "pytest",
+      "ExecutionMonitor",
+      "annotations",
+      "json",
+      "_export_via_adapter",
+      "agenthandover_worker.staleness_detector",
+      "KnowledgeBase",
+      "agenthandover_worker.procedure_schema",
+      "EvidenceTracker",
+      "ProcedureWriter",
+      "GenericWriter",
+      "procedure_freshness",
+      "agenthandover_worker.evidence_tracker",
+      "__future__",
+      "procedure_to_sop_template",
+      "OpenClawWriter",
+      "Path",
+      "MagicMock",
+      "agenthandover_worker.export_adapter",
+      "sop_to_procedure",
+      "agenthandover_worker.main",
+      "agenthandover_worker.procedure_writer",
+      "ClaudeSkillWriter",
+      "agenthandover_worker.generic_writer",
+      "agenthandover_worker.procedure_verifier",
+      "agenthandover_worker.knowledge_base",
+      "validate_procedure",
+      "agenthandover_worker.claude_skill_writer",
+      "agenthandover_worker.openclaw_writer",
+      "agenthandover_worker.execution_monitor",
+      "ProcedureVerifier",
+      "agenthandover_worker.skill_md_writer",
+      "unittest.mock",
+      "pathlib",
+      "math",
+      "SkillMdWriter",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_integration_full_pipeline.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "json",
+      "agenthandover_worker.staleness_detector",
+      "ProfileBuilder",
+      "KnowledgeBase",
+      "timedelta",
+      "agenthandover_worker.knowledge_export_adapter",
+      "agenthandover_worker.procedure_schema",
+      "EvidenceTracker",
+      "ProcedureWriter",
+      "StalenessDetector",
+      "agenthandover_worker.pattern_detector",
+      "PatternDetector",
+      "agenthandover_worker.evidence_tracker",
+      "__future__",
+      "Path",
+      "KnowledgeBaseExportAdapter",
+      "DailyBatchProcessor",
+      "agenthandover_worker.account_detector",
+      "sop_to_procedure",
+      "agenthandover_worker.procedure_writer",
+      "AccountDetector",
+      "agenthandover_worker.constraint_manager",
+      "agenthandover_worker.outcome_tracker",
+      "BranchExtractor",
+      "ConstraintManager",
+      "agenthandover_worker.knowledge_base",
+      "agenthandover_worker.decision_extractor",
+      "OutcomeTracker",
+      "agenthandover_worker.branch_extractor",
+      "agenthandover_worker.daily_processor",
+      "DecisionExtractor",
+      "agenthandover_worker.profile_builder",
+      "pathlib",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_frame_differ.py",
+    "dependencies": [
+      "pytest",
+      "patch",
+      "annotations",
+      "agenthandover_worker.frame_differ",
+      "json",
+      "unittest.mock",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_sop_inducer_enhanced.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.sop_inducer",
+      "annotations",
+      "collections",
+      "Counter",
+      "__future__",
+      "SOPInducer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_db.py",
+    "dependencies": [
+      "pytest",
+      "sqlite3",
+      "annotations",
+      "agenthandover_worker.db",
+      "conftest",
+      "json",
+      "pathlib",
+      "WorkerDB",
+      "insert_episode",
+      "__future__",
+      "Path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_config_validator.py",
+    "dependencies": [
+      "ConfigValidator",
+      "agenthandover_worker.config_validator"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_skill_md_writer.py",
+    "dependencies": [
+      "pytest",
+      "_extract_page_interactive_elements",
+      "annotations",
+      "json",
+      "agenthandover_worker.skill_md_writer",
+      "pathlib",
+      "__future__",
+      "tempfile",
+      "SkillMdWriter",
+      "Path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_daily_processor.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.daily_processor",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "KnowledgeBase",
+      "pathlib",
+      "__future__",
+      "Path",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_bundle_compiler.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_schema",
+      "sop_to_procedure",
+      "annotations",
+      "agenthandover_worker.generic_writer",
+      "agenthandover_worker.procedure_verifier",
+      "GenericWriter",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "pathlib",
+      "LifecycleManager",
+      "agenthandover_worker.bundle_compiler",
+      "__future__",
+      "Path",
+      "KnowledgeBase",
+      "agenthandover_worker.lifecycle_manager"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_skill_improver.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "agenthandover_worker.skill_improver",
+      "Enum",
+      "json",
+      "unittest.mock",
+      "enum",
+      "__future__",
+      "SkillImprover",
+      "MagicMock",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_llm_reasoning.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.llm_reasoning",
+      "annotations",
+      "json",
+      "unittest.mock",
+      "__future__",
+      "MagicMock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_focus_session.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.sop_inducer",
+      "annotations",
+      "json",
+      "unittest.mock",
+      "pathlib",
+      "__future__",
+      "tempfile",
+      "os",
+      "SOPInducer",
+      "Path",
+      "MagicMock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_escalation_handler.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.escalation_handler",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "unittest.mock",
+      "KnowledgeBase",
+      "pathlib",
+      "__future__",
+      "Path",
+      "datetime",
+      "MagicMock",
+      "agenthandover_worker.lifecycle_manager"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_vlm_queue.py",
+    "dependencies": [
+      "pytest",
+      "uuid",
+      "patch",
+      "annotations",
+      "agenthandover_worker.vlm_queue",
+      "unittest.mock",
+      "math",
+      "__future__",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_staleness_detector.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_schema",
+      "sop_to_procedure",
+      "annotations",
+      "StalenessDetector",
+      "agenthandover_worker.knowledge_base",
+      "agenthandover_worker.staleness_detector",
+      "pathlib",
+      "datetime",
+      "__future__",
+      "Path",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_native_app_boost.py",
+    "dependencies": [
+      "annotations",
+      "__future__",
+      "agenthandover_worker.confidence",
+      "TranslationResult",
+      "agenthandover_worker.translator"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_quality_judge.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_curator",
+      "agenthandover_worker.llm_reasoning",
+      "annotations",
+      "LLMReasoner",
+      "json",
+      "agenthandover_worker.staleness_detector",
+      "KnowledgeBase",
+      "agenthandover_worker.lifecycle_manager",
+      "QualityAssessment",
+      "agenthandover_worker.procedure_schema",
+      "StalenessDetector",
+      "__future__",
+      "MagicMock",
+      "TrustAdvisor",
+      "agenthandover_worker.trust_advisor",
+      "sop_to_procedure",
+      "patch",
+      "agenthandover_worker.knowledge_base",
+      "agenthandover_worker.quality_judge",
+      "LifecycleManager",
+      "unittest.mock",
+      "ProcedureCurator",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_sop_format.py",
+    "dependencies": [
+      "pytest",
+      "hashlib",
+      "annotations",
+      "SOPFormatter",
+      "agenthandover_worker.sop_format",
+      "pathlib",
+      "__future__",
+      "Path",
+      "yaml"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_json_parser.py",
+    "dependencies": [
+      "pytest",
+      "extract_json",
+      "annotations",
+      "__future__",
+      "agenthandover_worker.backends._json_parser"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_outcome_tracker.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.llm_reasoning",
+      "annotations",
+      "LLMReasoner",
+      "agenthandover_worker.outcome_tracker",
+      "json",
+      "unittest.mock",
+      "__future__",
+      "MagicMock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_correction_detector.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.llm_reasoning",
+      "annotations",
+      "LLMReasoner",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "unittest.mock",
+      "KnowledgeBase",
+      "agenthandover_worker.correction_detector",
+      "__future__",
+      "MagicMock",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_privacy_zones.py",
+    "dependencies": [
+      "pytest",
+      "patch",
+      "annotations",
+      "json",
+      "unittest.mock",
+      "__future__",
+      "datetime",
+      "agenthandover_worker.privacy_zones"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_confidence_evidence.py",
+    "dependencies": [
+      "annotations",
+      "ConfidenceScore",
+      "__future__",
+      "agenthandover_worker.confidence",
+      "TranslationResult",
+      "agenthandover_worker.translator"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_sop_drift.py",
+    "dependencies": [
+      "pytest",
+      "hashlib",
+      "re",
+      "annotations",
+      "SOPFormatter",
+      "agenthandover_worker.sop_format",
+      "pathlib",
+      "SOPVersioner",
+      "__future__",
+      "Path",
+      "agenthandover_worker.sop_versioner"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_injection_defense.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.injection_defense",
+      "__future__",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_evidence_extractor.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.evidence_extractor",
+      "EvidenceExtractor",
+      "annotations",
+      "json",
+      "unittest.mock",
+      "pathlib",
+      "__future__",
+      "Path",
+      "MagicMock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_css_filter.py",
+    "dependencies": [
+      "CSSRotFilter",
+      "agenthandover_worker.css_filter",
+      "__future__",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_negative_demo.py",
+    "dependencies": [
+      "uuid",
+      "annotations",
+      "json",
+      "__future__",
+      "agenthandover_worker.negative_demo",
+      "datetime",
+      "NegativeDemoPruner"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_trust_advisor.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.trust_advisor",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "pathlib",
+      "__future__",
+      "Path",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_export_adapter.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.sop_schema",
+      "agenthandover_worker.openclaw_writer",
+      "agenthandover_worker.generic_writer",
+      "GenericWriter",
+      "json",
+      "pathlib",
+      "SOPExportAdapter",
+      "OpenClawWriter",
+      "sop_to_json",
+      "Path",
+      "agenthandover_worker.export_adapter"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_task_segmenter.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.llm_reasoning",
+      "annotations",
+      "LLMReasoner",
+      "_process_passive_discovery",
+      "json",
+      "tempfile",
+      "hashlib",
+      "__future__",
+      "SOPGenerator",
+      "agenthandover_worker.task_segmenter",
+      "Path",
+      "sqlite3",
+      "patch",
+      "agenthandover_worker.main",
+      "agenthandover_worker.sop_generator",
+      "agenthandover_worker.db",
+      "unittest.mock",
+      "pathlib",
+      "math",
+      "WorkerDB",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_continuity_tracker.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "AnnotatedFrame",
+      "datetime",
+      "__future__",
+      "agenthandover_worker.task_segmenter",
+      "KnowledgeBase",
+      "agenthandover_worker.continuity_tracker"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_main_usability.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.main",
+      "patch",
+      "annotations",
+      "json",
+      "unittest.mock",
+      "pathlib",
+      "__future__",
+      "time",
+      "os",
+      "Path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_scorecard.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "Scorer",
+      "eval.replay_runner",
+      "Scorecard",
+      "json",
+      "ReplayScenario",
+      "eval.scorecard",
+      "pathlib",
+      "__future__",
+      "Path",
+      "eval.scorer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_scene_annotator.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.scene_annotator",
+      "sqlite3",
+      "patch",
+      "annotations",
+      "conftest",
+      "agenthandover_worker.db",
+      "json",
+      "unittest.mock",
+      "pathlib",
+      "WorkerDB",
+      "__future__",
+      "Path",
+      "insert_event"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_feature_toggles.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.main",
+      "patch",
+      "unittest.mock",
+      "_read_feature_flags"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_user_policy.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "asdict",
+      "json",
+      "agenthandover_worker.knowledge_base",
+      "PolicyAction",
+      "__future__",
+      "agenthandover_worker.user_policy",
+      "dataclasses",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_constraint_manager.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_schema",
+      "sop_to_procedure",
+      "annotations",
+      "agenthandover_worker.constraint_manager",
+      "agenthandover_worker.knowledge_base",
+      "pathlib",
+      "__future__",
+      "Path",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_profile_builder.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "agenthandover_worker.profile_builder",
+      "agenthandover_worker.knowledge_base",
+      "pathlib",
+      "__future__",
+      "Path",
+      "ProfileBuilder",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_daily_digest.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "agenthandover_worker.daily_digest",
+      "KnowledgeBase",
+      "pathlib",
+      "__future__",
+      "Path",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_team_sharing.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.team_sharing",
+      "annotations",
+      "metadata.",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "round",
+      "tests",
+      "pathlib",
+      "__future__",
+      "Path",
+      "kb.delete_procedure",
+      "sets",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_decision_extractor.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.llm_reasoning",
+      "annotations",
+      "LLMReasoner",
+      "agenthandover_worker.knowledge_base",
+      "unittest.mock",
+      "pathlib",
+      "__future__",
+      "agenthandover_worker.decision_extractor",
+      "Path",
+      "KnowledgeBase",
+      "MagicMock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_clipboard_linker.py",
+    "dependencies": [
+      "hashlib",
+      "uuid",
+      "annotations",
+      "agenthandover_worker.clipboard_linker",
+      "json",
+      "__future__",
+      "ClipboardLink",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_mcp_server.py",
+    "dependencies": [
+      "pytest",
+      "import",
+      "annotations",
+      "agenthandover_worker.mcp_server",
+      "json",
+      "unittest.mock",
+      "pathlib",
+      "__future__",
+      "Path",
+      "build_mcp_server",
+      "MagicMock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_procedure_matcher.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_schema",
+      "ContinuitySpan",
+      "sop_to_procedure",
+      "agenthandover_worker.procedure_matcher",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "AnnotatedFrame",
+      "__future__",
+      "agenthandover_worker.task_segmenter",
+      "agenthandover_worker.continuity_tracker",
+      "KnowledgeBase",
+      "ProcedureMatcher"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_ops_telemetry.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_schema",
+      "sop_to_procedure",
+      "agenthandover_worker.ops_telemetry",
+      "OpsTelemetry",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "KnowledgeBase",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_episode_builder.py",
+    "dependencies": [
+      "uuid",
+      "annotations",
+      "Episode",
+      "json",
+      "agenthandover_worker.episode_builder",
+      "__future__",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_pattern_detector.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "agenthandover_worker.pattern_detector",
+      "pathlib",
+      "__future__",
+      "Path",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_knowledge_export_adapter.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.knowledge_export_adapter",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "pathlib",
+      "__future__",
+      "Path",
+      "KnowledgeBaseExportAdapter",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_interruption_model.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.task_segmenter",
+      "__future__",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_replay_scenarios.py",
+    "dependencies": [
+      "pytest",
+      "itertools",
+      "annotations",
+      "Scorer",
+      "eval.replay_runner",
+      "ReplayScenario",
+      "pathlib",
+      "combinations",
+      "__future__",
+      "Path",
+      "eval.scorer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_procedure_writer.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_schema",
+      "EvidenceTracker",
+      "annotations",
+      "agenthandover_worker.procedure_writer",
+      "ProcedureWriter",
+      "agenthandover_worker.knowledge_base",
+      "validate_procedure",
+      "pathlib",
+      "agenthandover_worker.evidence_tracker",
+      "__future__",
+      "Path",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_vlm_worker.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.backends.mlx_vlm",
+      "logging",
+      "agenthandover_worker.vlm_worker",
+      "annotations",
+      "agenthandover_worker.backends.ollama",
+      "OllamaBackend",
+      "LlamaCppBackend",
+      "agenthandover_worker.backends.openai_compat",
+      "base64",
+      "__future__",
+      "OpenAICompatBackend",
+      "MLXVLMBackend",
+      "agenthandover_worker.backends.llama_cpp",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_exporter_enhanced.py",
+    "dependencies": [
+      "annotations",
+      "IndexGenerator",
+      "pathlib",
+      "__future__",
+      "agenthandover_worker.exporter",
+      "Path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_procedure_curator.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_curator",
+      "agenthandover_worker.procedure_schema",
+      "agenthandover_worker.trust_advisor",
+      "sop_to_procedure",
+      "annotations",
+      "StalenessDetector",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "agenthandover_worker.staleness_detector",
+      "datetime",
+      "__future__",
+      "LifecycleManager",
+      "TrustAdvisor",
+      "KnowledgeBase",
+      "agenthandover_worker.lifecycle_manager"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_vlm_backends.py",
+    "dependencies": [
+      "pytest",
+      "VLMConfig",
+      "agenthandover_worker.backends.ollama",
+      "annotations",
+      "time",
+      "builtins",
+      "types",
+      "OllamaBackend",
+      "__future__",
+      "backend._client",
+      "MagicMock",
+      "agenthandover_worker.backends.mlx_vlm",
+      "agenthandover_worker.backends.openai_compat",
+      "base64",
+      "OpenAICompatBackend",
+      "MLXVLMBackend",
+      "agenthandover_worker.backends.llama_cpp",
+      "agenthandover_worker.vlm_worker",
+      "LlamaCppBackend",
+      "sys",
+      "unittest.mock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_sop_inducer.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.sop_inducer",
+      "re",
+      "annotations",
+      "__future__",
+      "SOPInducer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_curation_api.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.procedure_curator",
+      "annotations",
+      "json",
+      "agenthandover_worker.staleness_detector",
+      "time",
+      "KnowledgeBase",
+      "agenthandover_worker.lifecycle_manager",
+      "agenthandover_worker.procedure_schema",
+      "StalenessDetector",
+      "__future__",
+      "Path",
+      "TrustAdvisor",
+      "agenthandover_worker.trust_advisor",
+      "sop_to_procedure",
+      "QueryAPIServer",
+      "agenthandover_worker.knowledge_base",
+      "socket",
+      "LifecycleManager",
+      "agenthandover_worker.query_api",
+      "urllib.error",
+      "urllib.request",
+      "pathlib",
+      "ProcedureCurator"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_runtime_validator.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.runtime_validator",
+      "annotations",
+      "urllib.error",
+      "agenthandover_worker.knowledge_base",
+      "RuntimeCheck",
+      "unittest.mock",
+      "pathlib",
+      "__future__",
+      "Path",
+      "subprocess",
+      "KnowledgeBase",
+      "MagicMock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_focus_questioner.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.llm_reasoning",
+      "annotations",
+      "json",
+      "unittest.mock",
+      "pathlib",
+      "__future__",
+      "tempfile",
+      "Path",
+      "ReasoningResult",
+      "agenthandover_worker.focus_questioner",
+      "MagicMock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_session_linker.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.llm_reasoning",
+      "patch",
+      "annotations",
+      "LLMReasoner",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "agenthandover_worker.session_linker",
+      "unittest.mock",
+      "KnowledgeBase",
+      "pathlib",
+      "__future__",
+      "Path",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_sop_dedup.py",
+    "dependencies": [
+      "pytest",
+      "agenthandover_worker.llm_reasoning",
+      "annotations",
+      "LLMReasoner",
+      "agenthandover_worker.sop_dedup",
+      "json",
+      "unittest.mock",
+      "pathlib",
+      "__future__",
+      "tempfile",
+      "Path",
+      "MagicMock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/test_scheduler.py",
+    "dependencies": [
+      "pytest",
+      "annotations",
+      "agenthandover_worker.scheduler",
+      "__future__",
+      "time",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/eval/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/eval/replay_runner.py",
+    "dependencies": [
+      "itertools",
+      "ActivityClassifier",
+      "annotations",
+      "json",
+      "combinations",
+      "dataclasses",
+      "KnowledgeBase",
+      "Any",
+      "GenericWriter",
+      "agenthandover_worker.sop_dedup",
+      "agenthandover_worker.pattern_detector",
+      "PatternDetector",
+      "__future__",
+      "agenthandover_worker.task_segmenter",
+      "procedure_to_sop_template",
+      "OpenClawWriter",
+      "Path",
+      "DailyBatchProcessor",
+      "agenthandover_worker.export_adapter",
+      "agenthandover_worker.continuity_tracker",
+      "dataclass",
+      "patch",
+      "ClaudeSkillWriter",
+      "agenthandover_worker.generic_writer",
+      "agenthandover_worker.procedure_verifier",
+      "agenthandover_worker.knowledge_base",
+      "agenthandover_worker.claude_skill_writer",
+      "ContinuityTracker",
+      "agenthandover_worker.activity_classifier",
+      "agenthandover_worker.daily_processor",
+      "logging",
+      "agenthandover_worker.openclaw_writer",
+      "ProcedureVerifier",
+      "agenthandover_worker.skill_md_writer",
+      "unittest.mock",
+      "pathlib",
+      "typing",
+      "SkillMdWriter"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/eval/scorer.py",
+    "dependencies": [
+      "itertools",
+      "Any",
+      "logging",
+      "annotations",
+      "pathlib",
+      "combinations",
+      "__future__",
+      "typing",
+      "Path",
+      "eval.metrics",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/eval/baseline_scorecard.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/eval/metrics.py",
+    "dependencies": [
+      "itertools",
+      "annotations",
+      "collections",
+      "Counter",
+      "math",
+      "combinations",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/eval/scorecard.py",
+    "dependencies": [
+      "annotations",
+      "ScenarioScore",
+      "asdict",
+      "json",
+      "pathlib",
+      "__future__",
+      "Path",
+      "dataclasses",
+      "eval.scorer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/fixtures/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/fixtures/replay/cross_app_research_workflow.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/fixtures/replay/long_gap_resumption.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/fixtures/replay/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/fixtures/replay/similar_but_different_sops.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/fixtures/replay/morning_expense_interruptions.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/fixtures/replay/interruption_resume_workflow.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/fixtures/replay/multi_day_recurring_standup.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/fixtures/replay/stale_and_draft_procedures.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/fixtures/replay/noise_heavy_browsing_session.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/tests/fixtures/replay/entertainment_detour.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/focus_questioner.py",
+    "dependencies": [
+      "os",
+      "Any",
+      "agenthandover_worker.llm_reasoning",
+      "logging",
+      "annotations",
+      "LLMReasoner",
+      "asdict",
+      "json",
+      "pathlib",
+      "__future__",
+      "tempfile",
+      "typing",
+      "Path",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/cleanup.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "json",
+      "__future__",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/__main__.py",
+    "dependencies": [
+      "main",
+      "agenthandover_worker.main"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/setup_vlm.py",
+    "dependencies": [
+      "annotations",
+      "argparse",
+      "tomllib",
+      "sys",
+      "platform",
+      "mlx_vlm",
+      "openai",
+      "pathlib",
+      "__future__",
+      "llama_cpp",
+      "os",
+      "Path",
+      "subprocess",
+      "ollama"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/skill_improver.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "collections",
+      "Counter",
+      "__future__",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/style_analyzer.py",
+    "dependencies": [
+      "agenthandover_worker.llm_reasoning",
+      "logging",
+      "annotations",
+      "LLMReasoner",
+      "json",
+      "TYPE_CHECKING",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/vlm_queue.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "Enum",
+      "enum",
+      "math",
+      "__future__",
+      "threading",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/procedure_matcher.py",
+    "dependencies": [
+      "TaskSegment",
+      "ContinuitySpan",
+      "logging",
+      "annotations",
+      "agenthandover_worker.sop_dedup",
+      "agenthandover_worker.knowledge_base",
+      "TYPE_CHECKING",
+      "__future__",
+      "typing",
+      "agenthandover_worker.task_segmenter",
+      "procedure_to_sop_template",
+      "agenthandover_worker.export_adapter",
+      "dataclasses",
+      "KnowledgeBase",
+      "agenthandover_worker.continuity_tracker",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/openclaw_writer.py",
+    "dependencies": [
+      "annotations",
+      "SOPFormatter",
+      "json",
+      "AtomicWriter",
+      "render_voice_style_section",
+      "pathlib",
+      "agenthandover_worker.sop_format",
+      "SOPVersioner",
+      "__future__",
+      "SOPExportAdapter",
+      "procedure_to_sop_template",
+      "Path",
+      "agenthandover_worker.exporter",
+      "agenthandover_worker.sop_versioner",
+      "agenthandover_worker.export_adapter",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/sop_generator.py",
+    "dependencies": [
+      "Any",
+      "logging",
+      "re",
+      "annotations",
+      "urllib.error",
+      "urllib.request",
+      "compute_v2_confidence",
+      "asdict",
+      "json",
+      "get_profile",
+      "__future__",
+      "time",
+      "typing",
+      "agenthandover_worker.confidence",
+      "unicodedata",
+      "dataclasses",
+      "agenthandover_worker.model_profiles",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/procedure_curator.py",
+    "dependencies": [
+      "itertools",
+      "annotations",
+      "json",
+      "agenthandover_worker.staleness_detector",
+      "combinations",
+      "dataclasses",
+      "KnowledgeBase",
+      "agenthandover_worker.lifecycle_manager",
+      "agenthandover_worker.procedure_schema",
+      "StalenessDetector",
+      "agenthandover_worker.sop_dedup",
+      "__future__",
+      "procedure_to_sop_template",
+      "TrustAdvisor",
+      "agenthandover_worker.export_adapter",
+      "dataclass",
+      "agenthandover_worker.trust_advisor",
+      "sop_to_procedure",
+      "agenthandover_worker.knowledge_base",
+      "logging",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/vector_kb.py",
+    "dependencies": [
+      "Image",
+      "annotations",
+      "json",
+      "mlx.core",
+      "dataclasses",
+      "hashlib",
+      "__future__",
+      "Path",
+      "dataclass",
+      "load",
+      "sqlite3",
+      "mlx_embeddings.utils",
+      "logging",
+      "urllib.error",
+      "urllib.request",
+      "pathlib",
+      "math",
+      "struct",
+      "PIL"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/agent_connect.py",
+    "dependencies": [
+      "annotations",
+      "tomllib",
+      "json",
+      "sys",
+      "platform",
+      "pathlib",
+      "__future__",
+      "Path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/focus_processor.py",
+    "dependencies": [
+      "agenthandover_worker.scene_annotator",
+      "logging",
+      "annotations",
+      "agenthandover_worker.frame_differ",
+      "FrameDiffer",
+      "agenthandover_worker.sop_generator",
+      "_generate_slug",
+      "json",
+      "pathlib",
+      "__future__",
+      "SOPGenerator",
+      "Path",
+      "SceneAnnotator"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/execution_monitor.py",
+    "dependencies": [
+      "uuid",
+      "logging",
+      "annotations",
+      "Enum",
+      "asdict",
+      "json",
+      "enum",
+      "pathlib",
+      "__future__",
+      "Path",
+      "dataclasses",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/sop_format.py",
+    "dependencies": [
+      "hashlib",
+      "annotations",
+      "pathlib",
+      "__future__",
+      "Path",
+      "unicodedata",
+      "datetime",
+      "yaml"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/variant_detector.py",
+    "dependencies": [
+      "uuid",
+      "logging",
+      "_url_to_domain",
+      "re",
+      "annotations",
+      "agenthandover_worker.sop_dedup",
+      "collections",
+      "_cosine_similarity",
+      "Counter",
+      "__future__",
+      "agenthandover_worker.task_segmenter",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/daily_processor.py",
+    "dependencies": [
+      "logging",
+      "re",
+      "annotations",
+      "agenthandover_worker.event_helpers",
+      "asdict",
+      "json",
+      "collections",
+      "Counter",
+      "TYPE_CHECKING",
+      "KnowledgeBase",
+      "pathlib",
+      "__future__",
+      "typing",
+      "agenthandover_worker.knowledge_base",
+      "Path",
+      "dataclasses",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/branch_extractor.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "__future__",
+      "dataclasses",
+      "KnowledgeBase",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/activity_search.py",
+    "dependencies": [
+      "sqlite3",
+      "logging",
+      "re",
+      "annotations",
+      "json",
+      "or",
+      "pathlib",
+      "__future__",
+      "Path",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/trust_advisor.py",
+    "dependencies": [
+      "TrustLevel",
+      "uuid",
+      "logging",
+      "annotations",
+      "agenthandover_worker.constraint_manager",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "KnowledgeBase",
+      "__future__",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/bundle_compiler.py",
+    "dependencies": [
+      "annotations",
+      "json",
+      "agenthandover_worker.staleness_detector",
+      "dataclasses",
+      "KnowledgeBase",
+      "agenthandover_worker.lifecycle_manager",
+      "hashlib",
+      "procedure_freshness",
+      "__future__",
+      "SOPExportAdapter",
+      "Path",
+      "agenthandover_worker.export_adapter",
+      "dataclass",
+      "agenthandover_worker.procedure_verifier",
+      "agenthandover_worker.knowledge_base",
+      "LifecycleManager",
+      "logging",
+      "ProcedureVerifier",
+      "pathlib",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/procedure_verifier.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "agenthandover_worker.staleness_detector",
+      "procedure_freshness",
+      "datetime",
+      "__future__",
+      "dataclasses",
+      "KnowledgeBase",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/kb_sync.py",
+    "dependencies": [
+      "hashlib",
+      "dataclasses",
+      "logging",
+      "annotations",
+      "zipfile",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "shutil",
+      "KnowledgeBase",
+      "pathlib",
+      "__future__",
+      "Path",
+      "of",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/team_sharing.py",
+    "dependencies": [
+      "uuid",
+      "copy",
+      "operation.",
+      "logging",
+      "{slug}",
+      "annotations",
+      "anonymized",
+      "re",
+      "asdict",
+      "json",
+      "agenthandover_worker.knowledge_base",
+      "KnowledgeBase",
+      "pathlib",
+      "__future__",
+      "Path",
+      "dataclasses",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/css_filter.py",
+    "dependencies": [
+      "__future__",
+      "re",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/pattern_detector.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "collections",
+      "Counter",
+      "KnowledgeBase",
+      "__future__",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/behavioral_synthesizer.py",
+    "dependencies": [
+      "uuid",
+      "Any",
+      "logging",
+      "re",
+      "annotations",
+      "urllib.error",
+      "urllib.request",
+      "json",
+      "get_profile",
+      "__future__",
+      "time",
+      "typing",
+      "dataclasses",
+      "datetime",
+      "agenthandover_worker.model_profiles",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/llm_reasoning.py",
+    "dependencies": [
+      "hashlib",
+      "uuid",
+      "Any",
+      "logging",
+      "re",
+      "annotations",
+      "urllib.error",
+      "urllib.request",
+      "agenthandover_worker.vlm_queue",
+      "json",
+      "VLMFallbackQueue",
+      "time",
+      "__future__",
+      "typing",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/confidence.py",
+    "dependencies": [
+      "Any",
+      "logging",
+      "annotations",
+      "__future__",
+      "typing",
+      "TranslationResult",
+      "agenthandover_worker.translator",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/scene_annotator.py",
+    "dependencies": [
+      "logging",
+      "re",
+      "annotations",
+      "urllib.error",
+      "urllib.request",
+      "base64",
+      "json",
+      "get_profile",
+      "pathlib",
+      "__future__",
+      "time",
+      "os",
+      "Path",
+      "dataclasses",
+      "datetime",
+      "agenthandover_worker.model_profiles",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/outcome_tracker.py",
+    "dependencies": [
+      "agenthandover_worker.llm_reasoning",
+      "logging",
+      "annotations",
+      "LLMReasoner",
+      "json",
+      "TYPE_CHECKING",
+      "__future__",
+      "typing",
+      "dataclasses",
+      "agenthandover_worker.event_helpers",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/db.py",
+    "dependencies": [
+      "uuid",
+      "sqlite3",
+      "logging",
+      "annotations",
+      "urlparse",
+      "urllib.parse",
+      "json",
+      "pathlib",
+      "Self",
+      "__future__",
+      "typing",
+      "Path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/evidence_normalizer.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "agenthandover_worker.sop_dedup",
+      "collections",
+      "Counter",
+      "TYPE_CHECKING",
+      "AlignedStep",
+      "agenthandover_worker.variant_detector",
+      "__future__",
+      "typing",
+      "procedure_to_sop_template",
+      "agenthandover_worker.export_adapter",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/vlm_worker.py",
+    "dependencies": [
+      "agenthandover_worker.backends.ollama",
+      "annotations",
+      "Enum",
+      "time",
+      "dataclasses",
+      "Any",
+      "AnthropicBackend",
+      "OllamaBackend",
+      "__future__",
+      "dataclass",
+      "agenthandover_worker.backends.mlx_vlm",
+      "agenthandover_worker.backends.anthropic",
+      "abc",
+      "agenthandover_worker.backends.openai_compat",
+      "base64",
+      "enum",
+      "GoogleGenAIBackend",
+      "OpenAICompatBackend",
+      "MLXVLMBackend",
+      "agenthandover_worker.injection_defense",
+      "agenthandover_worker.backends.llama_cpp",
+      "logging",
+      "LlamaCppBackend",
+      "agenthandover_worker.backends.google_genai",
+      "typing",
+      "InjectionDefense",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/quality_judge.py",
+    "dependencies": [
+      "agenthandover_worker.llm_reasoning",
+      "logging",
+      "annotations",
+      "LLMReasoner",
+      "json",
+      "__future__",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/translator.py",
+    "dependencies": [
+      "agenthandover_worker.css_filter",
+      "logging",
+      "re",
+      "annotations",
+      "CSSRotFilter",
+      "json",
+      "__future__",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/procedure_schema.py",
+    "dependencies": [
+      "__future__",
+      "datetime",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/sop_versioner.py",
+    "dependencies": [
+      "hashlib",
+      "annotations",
+      "SOPFormatter",
+      "AtomicWriter",
+      "agenthandover_worker.sop_format",
+      "shutil",
+      "TYPE_CHECKING",
+      "pathlib",
+      "__future__",
+      "typing",
+      "agenthandover_worker.exporter",
+      "Path",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/correction_detector.py",
+    "dependencies": [
+      "uuid",
+      "agenthandover_worker.llm_reasoning",
+      "logging",
+      "annotations",
+      "LLMReasoner",
+      "sanitize_user_data",
+      "agenthandover_worker.event_helpers",
+      "json",
+      "TYPE_CHECKING",
+      "pathlib",
+      "__future__",
+      "typing",
+      "Path",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/knowledge_export_adapter.py",
+    "dependencies": [
+      "agenthandover_worker.procedure_schema",
+      "logging",
+      "sop_to_procedure",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "pathlib",
+      "__future__",
+      "SOPExportAdapter",
+      "Path",
+      "agenthandover_worker.export_adapter",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/escalation_handler.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "Enum",
+      "ProcedureLifecycle",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "TYPE_CHECKING",
+      "KnowledgeBase",
+      "enum",
+      "__future__",
+      "typing",
+      "agenthandover_worker.lifecycle_manager",
+      "LifecycleManager",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/staleness_detector.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "KnowledgeBase",
+      "math",
+      "__future__",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/episode_builder.py",
+    "dependencies": [
+      "uuid",
+      "logging",
+      "urlparse",
+      "re",
+      "annotations",
+      "urllib.parse",
+      "agenthandover_worker.clipboard_linker",
+      "json",
+      "__future__",
+      "ClipboardLink",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/continuity_tracker.py",
+    "dependencies": [
+      "uuid",
+      "TaskSegment",
+      "agenthandover_worker.task_segmenter",
+      "logging",
+      "annotations",
+      "Enum",
+      "asdict",
+      "collections",
+      "json",
+      "_cosine_similarity",
+      "TYPE_CHECKING",
+      "KnowledgeBase",
+      "enum",
+      "__future__",
+      "typing",
+      "agenthandover_worker.knowledge_base",
+      "dataclasses",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/evidence_tracker.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "_cosine_similarity",
+      "datetime",
+      "__future__",
+      "agenthandover_worker.task_segmenter",
+      "dataclasses",
+      "KnowledgeBase",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/deep_scan.py",
+    "dependencies": [
+      "logging",
+      "re",
+      "annotations",
+      "__future__",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/injection_defense.py",
+    "dependencies": [
+      "logging",
+      "re",
+      "annotations",
+      "Enum",
+      "enum",
+      "__future__",
+      "unicodedata",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/generic_writer.py",
+    "dependencies": [
+      "agenthandover_worker.sop_schema",
+      "annotations",
+      "SOPFormatter",
+      "json",
+      "AtomicWriter",
+      "render_voice_style_section",
+      "pathlib",
+      "agenthandover_worker.sop_format",
+      "__future__",
+      "SOPExportAdapter",
+      "procedure_to_sop_template",
+      "Path",
+      "sop_to_json",
+      "agenthandover_worker.exporter",
+      "agenthandover_worker.export_adapter",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/sop_schema.py",
+    "dependencies": [
+      "__future__",
+      "datetime",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/mcp_server.py",
+    "dependencies": [
+      "ExecutionMonitor",
+      "agenthandover_worker.vector_kb",
+      "annotations",
+      "agenthandover_worker.skill_improver",
+      "json",
+      "VectorKB",
+      "KnowledgeBase",
+      "FastMCP",
+      "platform",
+      "__future__",
+      "Path",
+      "agenthandover_worker.knowledge_base",
+      "mcp.server.fastmcp",
+      "SkillImprover",
+      "logging",
+      "agenthandover_worker.execution_monitor",
+      "sys",
+      "pathlib",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/clipboard_linker.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "json",
+      "__future__",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/task_segmenter.py",
+    "dependencies": [
+      "agenthandover_worker.llm_reasoning",
+      "agenthandover_worker.vector_kb",
+      "annotations",
+      "LLMReasoner",
+      "Enum",
+      "json",
+      "VectorKB",
+      "time",
+      "dataclasses",
+      "hashlib",
+      "__future__",
+      "Path",
+      "dataclass",
+      "TYPE_CHECKING",
+      "enum",
+      "logging",
+      "urllib.error",
+      "urllib.request",
+      "pathlib",
+      "math",
+      "typing",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/event_helpers.py",
+    "dependencies": [
+      "annotations",
+      "from",
+      "json",
+      "__future__",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/main.py",
+    "dependencies": [
+      "ActivityClassifier",
+      "RuntimeValidator",
+      "concurrent.futures",
+      "json",
+      "ActivitySearcher",
+      "ProfileBuilder",
+      "check_vlm_available",
+      "KnowledgeBase",
+      "agenthandover_worker.lifecycle_manager",
+      "PrivacyZoneChecker",
+      "agenthandover_worker.runtime_validator",
+      "agenthandover_worker.focus_processor",
+      "EvidenceTracker",
+      "agenthandover_worker.sop_linter",
+      "GenericWriter",
+      "IndexGenerator",
+      "asdict",
+      "ProcedureLifecycle",
+      "EvidenceNormalizer",
+      "agenthandover_worker.vlm_queue",
+      "agenthandover_worker.config_validator",
+      "agenthandover_worker.variant_detector",
+      "BundleCompiler",
+      "Path",
+      "agenthandover_worker.translator",
+      "agenthandover_worker.privacy_zones",
+      "ImageEmbedder",
+      "agenthandover_worker.clipboard_linker",
+      "agenthandover_worker.procedure_verifier",
+      "tomllib",
+      "agenthandover_worker.session_linker",
+      "agenthandover_worker.sop_format",
+      "VLMRequest",
+      "agenthandover_worker.decision_extractor",
+      "connect_claude_code",
+      "ProcedureVerifier",
+      "agenthandover_worker.evidence_normalizer",
+      "sys",
+      "agenthandover_worker.skill_md_writer",
+      "WorkerDB",
+      "signal",
+      "datetime",
+      "agenthandover_worker.procedure_curator",
+      "agenthandover_worker.llm_reasoning",
+      "ObservationTier",
+      "VectorKB",
+      "agenthandover_worker.negative_demo",
+      "dataclasses",
+      "agenthandover_worker.focus_questioner",
+      "DiffConfig",
+      "agenthandover_worker.procedure_schema",
+      "StalenessDetector",
+      "agenthandover_worker.sop_dedup",
+      "agenthandover_worker.pattern_detector",
+      "PatternDetector",
+      "SOPGenerator",
+      "agenthandover_worker.scheduler",
+      "agenthandover_worker.continuity_tracker",
+      "CorrectionDetector",
+      "agenthandover_worker.escalation_handler",
+      "ClipboardLinker",
+      "agenthandover_worker.procedure_matcher",
+      "VLMWorker",
+      "agenthandover_worker.sop_generator",
+      "agenthandover_worker.quality_judge",
+      "ThreadPoolExecutor",
+      "AnnotationConfig",
+      "SOPInducer",
+      "IdleJobGate",
+      "ContinuityTracker",
+      "agenthandover_worker.scene_annotator",
+      "agenthandover_worker.openclaw_writer",
+      "agenthandover_worker.profile_builder",
+      "OpsTelemetry",
+      "agenthandover_worker.daily_digest",
+      "pathlib",
+      "ProcedureMatcher",
+      "ExecutionMonitor",
+      "agenthandover_worker.vector_kb",
+      "agenthandover_worker.ops_telemetry",
+      "ConfigValidator",
+      "agenthandover_worker.staleness_detector",
+      "agenthandover_worker.deep_scan",
+      "agenthandover_worker.correction_detector",
+      "tempfile",
+      "EpisodeBuilder",
+      "NegativeDemoPruner",
+      "FocusQuestioner",
+      "ProcedureWriter",
+      "QualityJudge",
+      "platform",
+      "VariantDetector",
+      "agenthandover_worker.episode_builder",
+      "RotatingFileHandler",
+      "SOPExportAdapter",
+      "__future__",
+      "agenthandover_worker.task_segmenter",
+      "TrustAdvisor",
+      "DailyBatchProcessor",
+      "agenthandover_worker.evidence_tracker",
+      "TaskSegmenter",
+      "slugify",
+      "agenthandover_worker.trust_advisor",
+      "re",
+      "EscalationHandler",
+      "agenthandover_worker.constraint_manager",
+      "agenthandover_worker.agent_connect",
+      "agenthandover_worker.knowledge_base",
+      "ConstraintManager",
+      "agenthandover_worker.bundle_compiler",
+      "SemanticTranslator",
+      "DigestGenerator",
+      "agenthandover_worker.exporter",
+      "LifecycleManager",
+      "agenthandover_worker.claude_skill_writer",
+      "agenthandover_worker.db",
+      "agenthandover_worker.query_api",
+      "VLMFallbackQueue",
+      "UserPolicy",
+      "ProcedureCurator",
+      "agenthandover_worker.user_policy",
+      "uuid",
+      "agenthandover_worker.evidence_extractor",
+      "EvidenceExtractor",
+      "logging.handlers",
+      "annotations",
+      "LLMReasoner",
+      "FocusProcessor",
+      "agenthandover_worker.activity_search",
+      "DeepScanner",
+      "time",
+      "subprocess",
+      "agenthandover_worker.knowledge_export_adapter",
+      "agenthandover_worker.sop_inducer",
+      "VLMJobStatus",
+      "OpenClawWriter",
+      "KnowledgeBaseExportAdapter",
+      "agenthandover_worker.sop_enhancer",
+      "agenthandover_worker.export_adapter",
+      "agenthandover_worker.model_profiles",
+      "SessionLinker",
+      "sop_to_procedure",
+      "agenthandover_worker.procedure_writer",
+      "ClaudeSkillWriter",
+      "BehavioralSynthesizer",
+      "QueryAPIServer",
+      "agenthandover_worker.frame_differ",
+      "agenthandover_worker.generic_writer",
+      "lint_sop",
+      "agenthandover_worker.daily_processor",
+      "agenthandover_worker.activity_classifier",
+      "logging",
+      "DecisionExtractor",
+      "argparse",
+      "agenthandover_worker.vlm_worker",
+      "agenthandover_worker.execution_monitor",
+      "agenthandover_worker.behavioral_synthesizer",
+      "AtomicWriter",
+      "ConfidenceScorer",
+      "deduplicate_templates",
+      "agenthandover_worker.confidence",
+      "SkillMdWriter",
+      "os",
+      "agenthandover_worker.setup_vlm"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/account_detector.py",
+    "dependencies": [
+      "logging",
+      "re",
+      "annotations",
+      "__future__",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/config_validator.py",
+    "dependencies": [
+      "logging",
+      "re",
+      "annotations",
+      "__future__",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/ops_telemetry.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "agenthandover_worker.staleness_detector",
+      "KnowledgeBase",
+      "procedure_freshness",
+      "pathlib",
+      "__future__",
+      "Path",
+      "timedelta",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/sop_inducer.py",
+    "dependencies": [
+      "hashlib",
+      "logging",
+      "re",
+      "annotations",
+      "random",
+      "collections",
+      "prefixspan",
+      "Counter",
+      "__future__",
+      "unicodedata",
+      "PrefixSpan",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/daily_digest.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "KnowledgeBase",
+      "__future__",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/activity_classifier.py",
+    "dependencies": [
+      "agenthandover_worker.llm_reasoning",
+      "logging",
+      "annotations",
+      "fnmatch",
+      "LLMReasoner",
+      "Enum",
+      "TYPE_CHECKING",
+      "enum",
+      "agenthandover_worker.user_policy",
+      "__future__",
+      "typing",
+      "UserPolicy",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/constraint_manager.py",
+    "dependencies": [
+      "Any",
+      "logging",
+      "annotations",
+      "Enum",
+      "agenthandover_worker.knowledge_base",
+      "enum",
+      "__future__",
+      "typing",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/evidence_extractor.py",
+    "dependencies": [
+      "logging",
+      "urlparse",
+      "re",
+      "annotations",
+      "agenthandover_worker.db",
+      "urllib.parse",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "collections",
+      "Counter",
+      "TYPE_CHECKING",
+      "WorkerDB",
+      "KnowledgeBase",
+      "__future__",
+      "typing",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/sop_dedup.py",
+    "dependencies": [
+      "agenthandover_worker.llm_reasoning",
+      "logging",
+      "urlparse",
+      "re",
+      "annotations",
+      "LLMReasoner",
+      "urllib.parse",
+      "json",
+      "AtomicWriter",
+      "TYPE_CHECKING",
+      "pathlib",
+      "__future__",
+      "typing",
+      "agenthandover_worker.exporter",
+      "Path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/profile_builder.py",
+    "dependencies": [
+      "aggregate_user_style",
+      "logging",
+      "annotations",
+      "agenthandover_worker.knowledge_base",
+      "collections",
+      "agenthandover_worker.style_analyzer",
+      "Counter",
+      "datetime",
+      "__future__",
+      "KnowledgeBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/exporter.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "SOPFormatter",
+      "agenthandover_worker.sop_format",
+      "TYPE_CHECKING",
+      "pathlib",
+      "SOPVersioner",
+      "__future__",
+      "tempfile",
+      "typing",
+      "os",
+      "Path",
+      "agenthandover_worker.sop_versioner",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/procedure_writer.py",
+    "dependencies": [
+      "agenthandover_worker.procedure_schema",
+      "logging",
+      "EvidenceTracker",
+      "annotations",
+      "ProcedureLifecycle",
+      "agenthandover_worker.knowledge_base",
+      "agenthandover_worker.style_analyzer",
+      "KnowledgeBase",
+      "pathlib",
+      "agenthandover_worker.evidence_tracker",
+      "analyze_procedure_style",
+      "__future__",
+      "Path",
+      "datetime",
+      "agenthandover_worker.lifecycle_manager"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/query_api.py",
+    "dependencies": [
+      "annotations",
+      "json",
+      "agenthandover_worker.staleness_detector",
+      "http.server",
+      "dataclasses",
+      "KnowledgeBase",
+      "agenthandover_worker.lifecycle_manager",
+      "agenthandover_worker.procedure_schema",
+      "Any",
+      "ProcedureLifecycle",
+      "asdict",
+      "procedure_freshness",
+      "BundleCompiler",
+      "__future__",
+      "Path",
+      "threading",
+      "re",
+      "QueryAPIServer",
+      "PROCEDURE_SCHEMA_VERSION",
+      "agenthandover_worker.knowledge_base",
+      "agenthandover_worker.bundle_compiler",
+      "logging",
+      "agenthandover_worker.query_api",
+      "pathlib",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/sop_enhancer.py",
+    "dependencies": [
+      "hashlib",
+      "VLMConfig",
+      "VLMBackend",
+      "logging",
+      "agenthandover_worker.vlm_worker",
+      "annotations",
+      "VLMWorker",
+      "json",
+      "TYPE_CHECKING",
+      "__future__",
+      "typing",
+      "ollama",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/claude_skill_writer.py",
+    "dependencies": [
+      "re",
+      "annotations",
+      "json",
+      "AtomicWriter",
+      "render_voice_style_section",
+      "pathlib",
+      "__future__",
+      "SOPExportAdapter",
+      "procedure_to_sop_template",
+      "Path",
+      "unicodedata",
+      "agenthandover_worker.exporter",
+      "agenthandover_worker.export_adapter",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/user_policy.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "fnmatch",
+      "Enum",
+      "asdict",
+      "json",
+      "agenthandover_worker.knowledge_base",
+      "KnowledgeBase",
+      "enum",
+      "__future__",
+      "dataclasses",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/session_linker.py",
+    "dependencies": [
+      "uuid",
+      "agenthandover_worker.llm_reasoning",
+      "logging",
+      "agenthandover_worker.vector_kb",
+      "annotations",
+      "re",
+      "LLMReasoner",
+      "agenthandover_worker.knowledge_base",
+      "json",
+      "VectorKB",
+      "TYPE_CHECKING",
+      "KnowledgeBase",
+      "__future__",
+      "typing",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/decision_extractor.py",
+    "dependencies": [
+      "agenthandover_worker.llm_reasoning",
+      "logging",
+      "annotations",
+      "LLMReasoner",
+      "agenthandover_worker.knowledge_base",
+      "TYPE_CHECKING",
+      "__future__",
+      "typing",
+      "dataclasses",
+      "KnowledgeBase",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/model_profiles.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "urllib.request",
+      "json",
+      "__future__",
+      "subprocess",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/negative_demo.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "json",
+      "__future__",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/knowledge_base.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "json",
+      "pathlib",
+      "__future__",
+      "tempfile",
+      "os",
+      "Path",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/runtime_validator.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "urllib.error",
+      "urllib.request",
+      "agenthandover_worker.knowledge_base",
+      "TYPE_CHECKING",
+      "__future__",
+      "typing",
+      "subprocess",
+      "dataclasses",
+      "KnowledgeBase",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/scheduler.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "platform",
+      "__future__",
+      "os",
+      "subprocess",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/frame_differ.py",
+    "dependencies": [
+      "agenthandover_worker.scene_annotator",
+      "logging",
+      "annotations",
+      "re",
+      "_call_ollama_vlm",
+      "json",
+      "get_profile",
+      "__future__",
+      "time",
+      "dataclasses",
+      "datetime",
+      "agenthandover_worker.model_profiles",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/export_adapter.py",
+    "dependencies": [
+      "annotations",
+      "ABC",
+      "abc",
+      "pathlib",
+      "__future__",
+      "Path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/sop_linter.py",
+    "dependencies": [
+      "re",
+      "annotations",
+      "__future__",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/privacy_zones.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "fnmatch",
+      "Enum",
+      "json",
+      "ClassVar",
+      "enum",
+      "__future__",
+      "typing",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/skill_md_writer.py",
+    "dependencies": [
+      "re",
+      "annotations",
+      "AtomicWriter",
+      "json",
+      "pathlib",
+      "__future__",
+      "SOPExportAdapter",
+      "procedure_to_sop_template",
+      "Path",
+      "unicodedata",
+      "agenthandover_worker.exporter",
+      "agenthandover_worker.export_adapter",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/lifecycle_manager.py",
+    "dependencies": [
+      "logging",
+      "annotations",
+      "Enum",
+      "agenthandover_worker.knowledge_base",
+      "agenthandover_worker.staleness_detector",
+      "KnowledgeBase",
+      "procedure_freshness",
+      "enum",
+      "__future__",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/models/__init__.py",
+    "dependencies": [
+      "Evidence",
+      "agenthandover_worker.models.semantic_step"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/models/semantic_step.py",
+    "dependencies": [
+      "Any",
+      "annotations",
+      "__future__",
+      "typing",
+      "dataclasses",
+      "datetime",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/backends/__init__.py",
+    "dependencies": [
+      "agenthandover_worker.backends._json_parser",
+      "extract_json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/backends/anthropic.py",
+    "dependencies": [
+      "anthropic",
+      "VLMConfig",
+      "extract_json",
+      "logging",
+      "agenthandover_worker.vlm_worker",
+      "annotations",
+      "run_with_timeout",
+      "agenthandover_worker.backends._timeout",
+      "base64",
+      "TYPE_CHECKING",
+      "__future__",
+      "typing",
+      "VLMInferenceBackend",
+      "os",
+      "agenthandover_worker.backends._json_parser"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/backends/_timeout.py",
+    "dependencies": [
+      "Callable",
+      "concurrent.futures",
+      "annotations",
+      "ThreadPoolExecutor",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/backends/openai_compat.py",
+    "dependencies": [
+      "VLMConfig",
+      "extract_json",
+      "logging",
+      "agenthandover_worker.vlm_worker",
+      "annotations",
+      "run_with_timeout",
+      "agenthandover_worker.backends._timeout",
+      "openai",
+      "TYPE_CHECKING",
+      "__future__",
+      "time",
+      "VLMInferenceBackend",
+      "os",
+      "typing",
+      "agenthandover_worker.backends._json_parser"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/backends/llama_cpp.py",
+    "dependencies": [
+      "VLMConfig",
+      "annotations",
+      "agenthandover_worker.backends._timeout",
+      "llama_cpp",
+      "extract_json",
+      "run_with_timeout",
+      "llama_cpp.llama_chat_format",
+      "__future__",
+      "VLMInferenceBackend",
+      "Path",
+      "threading",
+      "TYPE_CHECKING",
+      "agenthandover_worker.backends._json_parser",
+      "Llava15ChatHandler",
+      "logging",
+      "agenthandover_worker.vlm_worker",
+      "pathlib",
+      "typing",
+      "Llama"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/backends/google_genai.py",
+    "dependencies": [
+      "types",
+      "genai",
+      "VLMConfig",
+      "extract_json",
+      "logging",
+      "agenthandover_worker.vlm_worker",
+      "annotations",
+      "run_with_timeout",
+      "google",
+      "agenthandover_worker.backends._timeout",
+      "base64",
+      "TYPE_CHECKING",
+      "__future__",
+      "typing",
+      "VLMInferenceBackend",
+      "os",
+      "agenthandover_worker.backends._json_parser",
+      "google.genai"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/backends/mlx_vlm.py",
+    "dependencies": [
+      "Image",
+      "VLMConfig",
+      "BytesIO",
+      "annotations",
+      "agenthandover_worker.backends._timeout",
+      "io",
+      "mlx_vlm",
+      "extract_json",
+      "run_with_timeout",
+      "__future__",
+      "VLMInferenceBackend",
+      "threading",
+      "load_config",
+      "base64",
+      "TYPE_CHECKING",
+      "agenthandover_worker.backends._json_parser",
+      "apply_chat_template",
+      "logging",
+      "agenthandover_worker.vlm_worker",
+      "mlx_vlm.utils",
+      "mlx_vlm.prompt_utils",
+      "typing",
+      "PIL"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/backends/ollama.py",
+    "dependencies": [
+      "VLMConfig",
+      "extract_json",
+      "logging",
+      "agenthandover_worker.vlm_worker",
+      "annotations",
+      "run_with_timeout",
+      "agenthandover_worker.backends._timeout",
+      "TYPE_CHECKING",
+      "__future__",
+      "time",
+      "VLMInferenceBackend",
+      "typing",
+      "agenthandover_worker.backends._json_parser",
+      "ollama"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "worker/src/agenthandover_worker/backends/_json_parser.py",
+    "dependencies": [
+      "Any",
+      "re",
+      "annotations",
+      "json",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Package.swift",
+    "dependencies": [
+      "PackageDescription"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Package.resolved",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Tests/AgentHandoverAppTests/FocusQATests.swift",
+    "dependencies": [
+      "AgentHandoverApp",
+      "Foundation",
+      "XCTest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Tests/AgentHandoverAppTests/SOPEntryTests.swift",
+    "dependencies": [
+      "AgentHandoverApp",
+      "Foundation",
+      "XCTest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Tests/AgentHandoverAppTests/AppStateTests.swift",
+    "dependencies": [
+      "AgentHandoverApp",
+      "Foundation",
+      "XCTest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/AgentHandoverApp.swift",
+    "dependencies": [
+      "SwiftUI",
+      "Sparkle"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/ObservationServer.swift",
+    "dependencies": [
+      "Foundation"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/SOPIndexManager.swift",
+    "dependencies": [
+      "SwiftUI",
+      "Foundation",
+      "Combine"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/ScreenCaptureService.swift",
+    "dependencies": [
+      "CoreGraphics",
+      "ScreenCaptureKit",
+      "AppKit"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/PermissionChecker.swift",
+    "dependencies": [
+      "Cocoa",
+      "ScreenCaptureKit",
+      "CoreGraphics"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/CaptureAgentClient.swift",
+    "dependencies": [
+      "Foundation"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/ServiceController.swift",
+    "dependencies": [
+      "Foundation",
+      "AppKit"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Info.plist",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/ScreenCaptureServer.swift",
+    "dependencies": [
+      "Foundation"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/ObservationService.swift",
+    "dependencies": [
+      "Foundation",
+      "CoreGraphics",
+      "ApplicationServices"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Models/AgentDetector.swift",
+    "dependencies": [
+      "SwiftUI",
+      "Foundation"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Models/AppState.swift",
+    "dependencies": [
+      "SwiftUI",
+      "Foundation"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Views/StatusDetailView.swift",
+    "dependencies": [
+      "SwiftUI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Views/FAQView.swift",
+    "dependencies": [
+      "SwiftUI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Views/FocusQAView.swift",
+    "dependencies": [
+      "SwiftUI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Views/WorkflowInboxView.swift",
+    "dependencies": [
+      "SwiftUI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Views/DailyDigestView.swift",
+    "dependencies": [
+      "SwiftUI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Views/AgentConnectView.swift",
+    "dependencies": [
+      "SwiftUI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Views/MenuBarView.swift",
+    "dependencies": [
+      "SwiftUI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Views/MicroReviewView.swift",
+    "dependencies": [
+      "SwiftUI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Views/SOPDetailView.swift",
+    "dependencies": [
+      "SwiftUI",
+      "AppKit"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Views/OnboardingView.swift",
+    "dependencies": [
+      "SwiftUI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Resources/Assets.xcassets/Contents.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/AgentHandoverApp/Sources/AgentHandoverApp/Resources/Assets.xcassets/MenuBarIcon.imageset/Contents.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "homebrew/Formula/agenthandover.rb",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/test-harness/Cargo.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/test-harness/tests/pipeline_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/test-harness/tests/artifact_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/test-harness/tests/privacy_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/test-harness/tests/harness_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/test-harness/src/replayer.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/test-harness/src/pipeline.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/test-harness/src/lib.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/test-harness/src/recorder.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/test-harness/src/artifact.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/storage/Cargo.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/storage/tests/artifact_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/storage/tests/storage_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/storage/tests/maintenance_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/storage/src/artifact_store.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/storage/src/lib.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/storage/src/maintenance.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/storage/src/schema.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/storage/src/migrations/v002_add_display_ids_spanned.sql",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/storage/src/migrations/v003_add_scene_annotation.sql",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/storage/src/migrations/v001_initial.sql",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/storage/src/migrations/mod.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/common/Cargo.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/common/tests/event_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/common/tests/config_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/common/tests/redaction_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/common/tests/test_status.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/common/src/status.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/common/src/pid.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/common/src/redaction.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/common/src/lib.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/common/src/event.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/common/src/config.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/common/src/focus_session.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/Cargo.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/display.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/paths.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/main.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/watch.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/status.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/logs.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/service.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/doctor.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/search.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/export.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/config.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/focus.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/mod.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/sops.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/uninstall.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/cli/src/commands/setup.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/build.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/Cargo.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/tests/window_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/tests/health_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/tests/clipboard_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/tests/power_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/tests/accessibility_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/tests/event_loop_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/tests/idle_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/tests/native_messaging_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/tests/electron_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/tests/screenshot_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/tests/dwell_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/tests/cdp_test.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/observation.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/lib.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/control.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/main.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/platform/objc_try_catch.m",
+    "dependencies": [
+      "string.h",
+      "stdlib.h",
+      "stdio.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/platform/macos.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/platform/macos_accessibility.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/platform/macos_clipboard.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/platform/applescript_bridge.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/platform/mod.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/platform/macos_power.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/platform/electron_detect.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/platform/macos_windows.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/platform/macos_ocr.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/observer/health.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/observer/event_loop.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/observer/mod.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/observer/dwell.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/observer/focus_session.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/observer/collector.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/ipc/cdp_bridge.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/ipc/mod.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/ipc/native_messaging.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/capture/jpeg_converter.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/capture/dhash.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/capture/screenshot.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/capture/clipboard.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crates/daemon/src/capture/mod.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "resources/AgentHandover_Mascot.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "resources/pkg/conclusion.html",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "resources/pkg/welcome.html",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "resources/pkg/distribution.xml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "resources/pkg/scripts/postinstall",
+    "dependencies": [
+      "sys"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "resources/pkg/scripts/preinstall",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "resources/daemon-app/Info.plist",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "resources/launchd/com.agenthandover.worker.plist",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "resources/launchd/com.agenthandover.daemon.plist",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "scripts/test-passive-e2e.py",
+    "dependencies": [
+      "aggregate_user_style",
+      "uuid",
+      "agenthandover_worker.llm_reasoning",
+      "agenthandover_worker.vector_kb",
+      "annotations",
+      "LLMReasoner",
+      "json",
+      "VectorKB",
+      "tempfile",
+      "ProfileBuilder",
+      "KnowledgeBase",
+      "random",
+      "agenthandover_worker.pattern_detector",
+      "PatternDetector",
+      "__future__",
+      "Path",
+      "DailyBatchProcessor",
+      "sqlite3",
+      "analyze_style",
+      "agenthandover_worker.knowledge_base",
+      "DigestGenerator",
+      "agenthandover_worker.daily_processor",
+      "logging",
+      "agenthandover_worker.profile_builder",
+      "agenthandover_worker.style_analyzer",
+      "sys",
+      "agenthandover_worker.daily_digest",
+      "pathlib",
+      "os",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "scripts/uninstall.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "scripts/install-native-host.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "scripts/setup.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "scripts/build-pkg.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/load/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/load/test_power_user_day.py",
+    "dependencies": [
+      "pytest",
+      "uuid",
+      "annotations",
+      "json",
+      "time",
+      "agenthandover_worker.negative_demo",
+      "EpisodeBuilder",
+      "NegativeDemoPruner",
+      "string",
+      "IndexGenerator",
+      "random",
+      "agenthandover_worker.vlm_queue",
+      "agenthandover_worker.episode_builder",
+      "__future__",
+      "OpenClawWriter",
+      "Path",
+      "agenthandover_worker.translator",
+      "sqlite3",
+      "ClipboardLinker",
+      "agenthandover_worker.clipboard_linker",
+      "agenthandover_worker.main",
+      "run_pipeline",
+      "SemanticTranslator",
+      "agenthandover_worker.exporter",
+      "agenthandover_worker.openclaw_writer",
+      "sys",
+      "ConfidenceScorer",
+      "pathlib",
+      "VLMFallbackQueue",
+      "agenthandover_worker.confidence",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/e2e/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/e2e/test_full_pipeline.py",
+    "dependencies": [
+      "pytest",
+      "uuid",
+      "annotations",
+      "json",
+      "tempfile",
+      "time",
+      "agenthandover_worker.negative_demo",
+      "EpisodeBuilder",
+      "subprocess",
+      "NegativeDemoPruner",
+      "GenericWriter",
+      "IndexGenerator",
+      "agenthandover_worker.vlm_queue",
+      "agenthandover_worker.episode_builder",
+      "__future__",
+      "Path",
+      "OpenClawWriter",
+      "agenthandover_worker.translator",
+      "sqlite3",
+      "ClipboardLinker",
+      "agenthandover_worker.clipboard_linker",
+      "agenthandover_worker.main",
+      "agenthandover_worker.generic_writer",
+      "run_pipeline",
+      "SemanticTranslator",
+      "agenthandover_worker.exporter",
+      "signal",
+      "agenthandover_worker.openclaw_writer",
+      "sys",
+      "ConfidenceScorer",
+      "pathlib",
+      "VLMFallbackQueue",
+      "agenthandover_worker.confidence",
+      "os",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/e2e/test_error_recovery.py",
+    "dependencies": [
+      "pytest",
+      "sqlite3",
+      "annotations",
+      "json",
+      "shutil",
+      "pathlib",
+      "__future__",
+      "tempfile",
+      "time",
+      "os",
+      "Path",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/integration/test_multi_monitor.py",
+    "dependencies": [
+      "pytest",
+      "Any",
+      "annotations",
+      "json",
+      "__future__",
+      "typing",
+      "dataclasses",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/integration/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/integration/test_phase2_sop_pipeline.py",
+    "dependencies": [
+      "pytest",
+      "uuid",
+      "annotations",
+      "json",
+      "QueueBudget",
+      "agenthandover_worker.negative_demo",
+      "EpisodeBuilder",
+      "NegativeDemoPruner",
+      "agenthandover_worker.models.semantic_step",
+      "hashlib",
+      "agenthandover_worker.sop_inducer",
+      "SOPFormatter",
+      "agenthandover_worker.vlm_queue",
+      "agenthandover_worker.episode_builder",
+      "__future__",
+      "OpenClawWriter",
+      "Path",
+      "agenthandover_worker.sop_versioner",
+      "agenthandover_worker.translator",
+      "agenthandover_worker.scheduler",
+      "sqlite3",
+      "ClipboardLinker",
+      "agenthandover_worker.clipboard_linker",
+      "Evidence",
+      "agenthandover_worker.sop_format",
+      "SemanticTranslator",
+      "agenthandover_worker.exporter",
+      "SOPInducer",
+      "agenthandover_worker.openclaw_writer",
+      "agenthandover_worker.db",
+      "AtomicWriter",
+      "sys",
+      "ConfidenceScorer",
+      "pathlib",
+      "WorkerDB",
+      "SOPVersioner",
+      "agenthandover_worker.confidence",
+      "datetime",
+      "yaml"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/integration/test_privacy_pipeline.py",
+    "dependencies": [
+      "pytest",
+      "uuid",
+      "sqlite3",
+      "re",
+      "annotations",
+      "agenthandover_worker.db",
+      "json",
+      "sys",
+      "pathlib",
+      "WorkerDB",
+      "__future__",
+      "Path",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/integration/test_phase1.py",
+    "dependencies": [
+      "pytest",
+      "uuid",
+      "annotations",
+      "json",
+      "agenthandover_worker.negative_demo",
+      "EpisodeBuilder",
+      "NegativeDemoPruner",
+      "hashlib",
+      "agenthandover_worker.episode_builder",
+      "__future__",
+      "Path",
+      "sqlite3",
+      "ClipboardLinker",
+      "agenthandover_worker.clipboard_linker",
+      "agenthandover_worker.db",
+      "sys",
+      "pathlib",
+      "WorkerDB",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/package.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/vitest.config.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/package-lock.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/tsconfig.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/webpack.config.js",
+    "dependencies": [
+      "copy-webpack-plugin",
+      "path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/manifest.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/tests/secure-field.test.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/tests/dwell.test.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/tests/click-capture.test.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/tests/dom-capture.test.ts",
+    "dependencies": [
+      "type"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/tests/shadow-dom.test.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/src/dwell-tracker.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/src/secure-field.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/src/dom-capture.ts",
+    "dependencies": [
+      "type"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/src/background.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/src/native-messaging.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/src/click-capture.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/src/types.ts",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extension/src/content.ts",
+    "dependencies": [
+      "and"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
